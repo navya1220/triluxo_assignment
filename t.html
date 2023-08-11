@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog App</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="t.css">
+</head>
+
+<body>
+    <div id="sectionlogin">
+        <div class="container">
+            <div class="login-signup">
+                <form id="loginForm">
+                    <div class="mb-3">
+                        <label class="email" for="loginEmail">Email</label>
+                        <input class="form-control " type="email" id="loginEmail" placeholder="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label class="email" for="loginPassword">Password</label>
+                        <input class="form-control" type="password" id="loginPassword" placeholder="Password" required>
+                    </div>
+
+                    <button class="button" onclick="display('sectionblog')" type="submit">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div id="sectionblog">
+        <div class="blog-section">
+            <h2>Create a Blog</h2>
+            <form id="blogForm">
+                <div class="mb-3">
+                    <label for="blogTitle">Title</label>
+                    <input class="form-control" type="text" id="blogTitle" placeholder="Title" required>
+                </div>
+                <div class="mb-3">
+                    <label for="blogContent">Blog content</label>
+                    <textarea class="form-control" id="blogContent" placeholder="Blog content" required></textarea>
+                </div>
+                <div class="mb-3">
+                    <label for="blogImage">Image URL</label>
+                    <input class="form-control" type="url" id="blogImage" placeholder="Image URL">
+                </div>
+                <div class="mb-3">
+                    <label for="blogVideo">BlogVideo</label>
+                    <input class="form-control" type="url" id="blogVideo" placeholder="Video URL">
+                </div>
+
+                <button class="button1" type="submit" onclick="display('sectionblog2')">Publish</button>
+            </form>
+        </div>
+    </div>
+    <div id="sectionblog2">
+        <div class="blogs">
+            <!-- Display blogs here -->
+        </div>
+    </div>
+    <script src="t.js"></script>
+    <script type="text/javascript"
+        src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/js/ccbp-ui-kit.js"></script>
+</body>
+
+</html>

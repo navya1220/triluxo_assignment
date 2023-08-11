@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.button1 {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.container {
+    background-image: url('data:image/jpeg;base64,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');
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.login-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#loginForm {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.button {
+    width: 160px;
+    height: 40px;
+    border-radius: 10px;
+    border-width: 0px;
+}
+
+.email {
+    color: white;
+    font-size: 20px;
+}
+
+
+.blog-section {
+    padding: 20px;
+
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.blogs {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.blogs h3 {
+    margin-top: 0;
+}
+
+.blogs .blog {
+    margin-bottom: 20px;
+}
